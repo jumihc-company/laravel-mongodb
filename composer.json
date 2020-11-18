@@ -1,0 +1,34 @@
+{
+    "name": "jmhc/laravel-mongodb",
+    "description": "Laravel mongodb.",
+    "keywords": [
+        "jmhc",
+        "laravel",
+        "mongodb"
+    ],
+    "homepage": "http://jumihc.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jumihc",
+            "email": "jumihuchuang@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jmhc\\Mongodb\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "jmhc/laravel-database": "^8.0",
+        "jenssegers/mongodb": "~3.8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jmhc\\Mongodb\\JmhcServiceProvider"
+            ]
+        }
+    }
+}
